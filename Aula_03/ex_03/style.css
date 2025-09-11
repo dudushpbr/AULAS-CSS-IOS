@@ -1,0 +1,27 @@
+h1 {
+    /* border: 3px solid green; */
+    border-top: 3px double cornflowerblue;
+    border-right: 10px dashed blueviolet;
+    border-bottom: 3px dotted firebrick;
+    border-left: 10px inset orangered;
+}
+ 
+
+h2 {
+    border: 3px default green;
+}
+
+img {
+    width: 400px;
+    height: 100px;
+    text-align: center;
+}
+
+figure {
+    background-color: green;
+    border: 2px double yellow;
+    height: 450px;
+    width: 450px;
+    text-align: center;
+    padding: 20px;
+}
