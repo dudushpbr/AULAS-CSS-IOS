@@ -1,0 +1,24 @@
+body{
+   
+   background-image: url('./testecham.jpeg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   background-position: center;
+   color: white;
+}
+img{
+    height: 300px;
+    filter: drop-shadow( -13px 0px 7px  rgb(0, 0, 0));
+}
+
+.container1 {
+    height: 100vh;
+}
+.container2 {
+    height: 100vh;
+}
+.container3 {
+    height: 100vh;
+    background: linear-gradient(90deg,rgba(255, 252, 252, 1) 0%, rgba(0, 0, 0, 1) 35%, rgba(6, 87, 172, 1) 60%, rgba(255, 0, 0, 1) 100%);
+}

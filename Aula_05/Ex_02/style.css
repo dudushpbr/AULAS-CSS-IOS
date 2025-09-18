@@ -1,0 +1,28 @@
+body{ 
+   background-image: url('./teste.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   background-position: center;
+   color: rgb(255, 255, 255); 
+}
+*{
+    text-align: center;
+    font-size: 25px;
+    line-height: 25px;
+}
+p{
+    text-align: justify;
+}
+
+.heading{
+    font-size: 40px;
+    font-family: "Bitcount Single Ink";
+    text-shadow: 3px 2px 4px ;
+    color: black;
+    
+}
+.headingP{
+font-size: 50px;
+    font-style: oblique;
+}
