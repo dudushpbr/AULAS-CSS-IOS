@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    font-size: 20px;
+}
+
+.texto1{
+    color: brown;
+    font-size: 30px;
+}
+
+.texto2{
+    background-color: pink;
+    color: rgb(255, 0, 0);
+    height: 10vh;
+    width: 10vw;
+}
+.texto3{
+    font-size: 2rem;
+    /* 2 x elemento roor */
+}
+
+ol {
+    font-size: 15px;
+}
+
+li {
+    font-size: 2em;
+}

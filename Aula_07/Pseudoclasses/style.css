@@ -1,0 +1,7 @@
+a:active{
+    color: rgb(234, 255, 0);
+}
+input:focus{
+    background-color: violet;
+    color: rgb(255, 255, 255);
+}

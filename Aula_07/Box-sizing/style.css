@@ -1,0 +1,29 @@
+.box{
+    height: 200px;
+    width: 200px;
+    border: solid 5px cadetblue;
+    margin: 5px;
+        display: inline-block;
+
+}
+.box1{
+    box-sizing: border-box;
+    background-color: blue;
+}
+
+.box2{
+    /* display: block; */
+    /* display: inline; */
+    display: inline-block;
+    /* display: none; */
+
+
+    /* exemplo */
+    /* dysplay flex */
+    /*  dysplay:grid*/
+}
+
+.box3{
+    box-sizing: content-box;
+    background-color: green;
+}
