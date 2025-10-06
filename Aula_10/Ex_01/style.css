@@ -1,0 +1,26 @@
+@media screen and (max-width: 400px) {
+    h1{
+        color: aqua;
+    }
+}
+@media print and (max-width: 1000px) {
+    h2{
+        color: blue;
+    }
+}
+
+
+@media (max-width: 500px) {
+    h3{
+        color: yellowgreen
+    }
+}
+
+@media (min-width: 600px){
+    h4{
+        color: violet;
+    }
+}
+@media (min-width: 600px) and (max-width: 750px){
+    h5{ color: rgb(221, 0, 255);}
+}

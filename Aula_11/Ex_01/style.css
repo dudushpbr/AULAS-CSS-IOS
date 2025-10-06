@@ -1,0 +1,35 @@
+.container {
+    display: grid;
+    height: 800px;
+    width: 800px;
+    border: solid 2px green;
+    background-color: silver;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas: 
+    "header header header header header header"
+    "main main main main img img"
+    "main main main main img img"
+    "main main main main img img"
+    "footer footer footer footer footer footer"
+    ;
+}
+.box1{
+    grid-area: header;
+    background-color: blue;
+}
+
+.box2{
+    grid-area: main;
+    background-color: red;
+}
+
+.box3{
+    grid-area: img;
+    background-color: green;
+}
+
+.box4{
+    grid-area: footer;
+    background-color: yellow;
+}

@@ -1,0 +1,30 @@
+.container {
+    display: grid;
+    height: 80vh;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas:
+    "header header header header"
+    "main main aside aside"
+    "main main aside aside"
+    "footer footer footer footer"
+    ;
+    grid-gap: 5px;
+}
+.box1{
+    background-color: burlywood;
+    grid-area: header;
+    
+}
+.box2{
+    grid-area: main;
+    background-color: chocolate;
+}
+.box3{
+    grid-area: aside;
+    background-color: crimson;
+}
+.box4{
+    grid-area: footer;
+    background-color: darkslategray;
+}
